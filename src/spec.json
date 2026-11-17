@@ -1,0 +1,213 @@
+{
+  "title": "Richieste di manutenzione del verde",
+  "description": "Gestisci le segnalazioni di manutenzione, assegna priorità e monitora gli interventi per quartiere. Variante di prova 5.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle richieste e dello stato degli interventi sul verde pubblico.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "Interventi in corso",
+          "value": "7"
+        },
+        {
+          "label": "Completate questo mese",
+          "value": "23"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data"
+      ],
+      "rows": [
+        [
+          "VER-051",
+          "Potatura alberi lungo il viale",
+          "Riva Luma",
+          "Alta",
+          "In corso",
+          "12/05/2025"
+        ],
+        [
+          "VER-052",
+          "Ripristino irrigazione aiuola",
+          "Borgo Nubi",
+          "Media",
+          "Da assegnare",
+          "13/05/2025"
+        ],
+        [
+          "VER-053",
+          "Rimozione ramo caduto",
+          "Colle Vela",
+          "Alta",
+          "Pianificata",
+          "14/05/2025"
+        ],
+        [
+          "VER-054",
+          "Sfalcio area giochi",
+          "Riva Luma",
+          "Bassa",
+          "Completata",
+          "15/05/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Cerca e filtra le segnalazioni per quartiere, priorità e stato. Apri una richiesta per consultarne il riepilogo.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data"
+      ],
+      "rows": [
+        [
+          "VER-051",
+          "Potatura alberi lungo il viale",
+          "Riva Luma",
+          "Alta",
+          "In corso",
+          "12/05/2025"
+        ],
+        [
+          "VER-052",
+          "Ripristino irrigazione aiuola",
+          "Borgo Nubi",
+          "Media",
+          "Da assegnare",
+          "13/05/2025"
+        ],
+        [
+          "VER-053",
+          "Rimozione ramo caduto",
+          "Colle Vela",
+          "Alta",
+          "Pianificata",
+          "14/05/2025"
+        ],
+        [
+          "VER-054",
+          "Sfalcio area giochi",
+          "Riva Luma",
+          "Bassa",
+          "Completata",
+          "15/05/2025"
+        ],
+        [
+          "VER-055",
+          "Controllo siepe vicino alla fontana",
+          "Piana Lumo",
+          "Media",
+          "Da assegnare",
+          "16/05/2025"
+        ],
+        [
+          "VER-056",
+          "Sostituzione arbusto danneggiato",
+          "Borgo Nubi",
+          "Bassa",
+          "In corso",
+          "17/05/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una segnalazione con dettagli essenziali per assegnare priorità e quartiere.",
+      "metrics": [],
+      "columns": [
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data"
+      ],
+      "rows": [],
+      "form": [
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data"
+      ]
+    },
+    {
+      "id": "interventi",
+      "title": "Interventi",
+      "description": "Monitora gli interventi pianificati, in corso e completati.",
+      "metrics": [
+        {
+          "label": "Pianificati",
+          "value": "6"
+        },
+        {
+          "label": "In corso",
+          "value": "7"
+        },
+        {
+          "label": "Completati",
+          "value": "23"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Intervento",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data"
+      ],
+      "rows": [
+        [
+          "VER-051",
+          "Potatura alberi lungo il viale",
+          "Riva Luma",
+          "Alta",
+          "In corso",
+          "12/05/2025"
+        ],
+        [
+          "VER-053",
+          "Rimozione ramo caduto",
+          "Colle Vela",
+          "Alta",
+          "Pianificata",
+          "14/05/2025"
+        ],
+        [
+          "VER-056",
+          "Sostituzione arbusto danneggiato",
+          "Borgo Nubi",
+          "Bassa",
+          "In corso",
+          "17/05/2025"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
